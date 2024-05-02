@@ -65,7 +65,9 @@ public class Homework303_2_1 {
         int h2 = i + height;
         System.out.println(h2);
 
-        //Write a program where you create three variables that represent products at a cafe. The products could be beverages like coffee, cappuccino, espresso, green tea, etc. Assign prices to each product. Create two more variables called subtotal and totalSale and complete an “order” for three items of the first product, four items of the second product, and two items of the third product. Add them all together to calculate the subtotal. Create a constant called SALES_TAX and add sales tax to the subtotal to obtain the totalSale amount.
+        //Write a program where you create three variables that represent products at a cafe.
+        // The products could be beverages like coffee, cappuccino, espresso, green tea, etc.
+        // Assign prices to each product. Create two more variables called subtotal and totalSale and complete an “order” for three items of the first product, four items of the second product, and two items of the third product. Add them all together to calculate the subtotal. Create a constant called SALES_TAX and add sales tax to the subtotal to obtain the totalSale amount.
         // Be sure to format the results to two decimal places.
 
         double coffee = 5.50;
@@ -75,8 +77,8 @@ public class Homework303_2_1 {
         int doughnutCount = 4;
         int greenTeaCount = 2;
         double subTotal = coffee * coffeeCount + doughnut * doughnutCount + greenTea * greenTeaCount;
-        final double salesTaxRate = 0.7;
-        double totalSale = subTotal + salesTaxRate;
+        final double SALES_TAX = 0.7;
+        double totalSale = subTotal + SALES_TAX;
         System.out.println(totalSale);
 
 
