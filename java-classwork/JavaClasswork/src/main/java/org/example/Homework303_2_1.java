@@ -73,10 +73,8 @@ public class Homework303_2_1 {
         double coffee = 5.50;
         double doughnut = 3.75;
         double greenTea = 7.50;
-        int coffeeCount = 3;
-        int doughnutCount = 4;
-        int greenTeaCount = 2;
-        double subTotal = coffee * coffeeCount + doughnut * doughnutCount + greenTea * greenTeaCount;
+        
+        double subTotal = (coffee * 3) + (doughnut * 4) + (greenTea * 2);
         final double SALES_TAX = 0.7;
         double totalSale = subTotal + SALES_TAX;
         System.out.println(totalSale);
